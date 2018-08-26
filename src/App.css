@@ -1,0 +1,56 @@
+* {
+    font-size: 30px;
+    color: red;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+input {
+    background-color: blue;
+    border: none;
+    width: 100px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+#main {
+    width: 640px;
+    border: 2px solid red;
+    height: 400px;
+}
+
+#graphic {
+    width: 100%;
+    background-color: blue;
+    height: 230px;
+}
+
+#graphicTop {
+    height: 142px;
+    background-color: yellow;
+}
+
+#graphicBottom {
+    
+}
+
+#status {
+    width: 100%;
+    background-color: orange;
+    height: 170px;
+}
+
+#intro {
+    width: 100%;
+    background-color: green;
+    height: 100%;
+}
