@@ -8,6 +8,15 @@ class Intro extends Component {
         if (value === "1") {
             this.props.changeWindowTo("MainPlay");
         }
+        if (value === "2") {
+            this.props.changeWindowTo("AboutTrail");
+        }
+        if (value === "3") {
+            this.props.changeWindowTo("Ranking");
+        }
+        if (value === "4") {
+            this.props.changeWindowTo("Options");
+        }
     }
     
     render() {
@@ -21,7 +30,7 @@ class Intro extends Component {
                         <li>See the Super Odyssey Trail Top Ten</li>
                         <li>Options</li>
                     </ol>
-                What is your choice? <form onSubmit={this.handleSubmit.bind(this)}><input id="option" type="number"/></form>
+                What is your choice? <form onSubmit={this.handleSubmit.bind(this)}><input autoFocus id="option" type="number"/></form>
                 </div>
             </div>
         )    
